@@ -7,7 +7,7 @@ body:
     id: title
     attributes:
       label: Tittel
-      description: ""
+      description: "??"
       placeholder: "Skriv noe"
     validations:
       required: true
