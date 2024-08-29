@@ -1,0 +1,24 @@
+name: Gjør noe
+description: lorem
+labels: ["wip"]
+assignees: self
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Tittel
+      description: ""
+      placeholder: "Skriv noe"
+    validations:
+      required: true
+  - type: textarea
+    id: tekst
+    attributes:
+      label: Tekst
+      description:
+      placeholder: |
+        Skriv før du
+
+        tenker
+    validations:
+      required: true
