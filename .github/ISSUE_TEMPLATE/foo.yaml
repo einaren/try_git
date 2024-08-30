@@ -8,7 +8,7 @@ body:
     id: litt_tekst
     attributes:
       label: input type
-      description: "??"
+      description: "type: input"
       placeholder: "Skriv noe"
     validations:
       required: true
@@ -16,7 +16,7 @@ body:
     id: mye tekst
     attributes:
       label: textarea_type
-      description:
+      description: "type: text area"
       placeholder: |
         Skriv før du
 
