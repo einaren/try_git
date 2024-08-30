@@ -1,20 +1,21 @@
 name: Gjør noe
 description: lorem
-labels: ["wip"]
+title: Add a title for your issue, try to keep it shorter than ~100 characters
+labels: [triage]
 assignees: self
 body:
   - type: input
-    id: title
+    id: litt tekst
     attributes:
-      label: Tittel
+      label: input type
       description: "??"
       placeholder: "Skriv noe"
     validations:
       required: true
   - type: textarea
-    id: tekst
+    id: mye tekst
     attributes:
-      label: Tekst
+      label: textarea type
       description:
       placeholder: |
         Skriv før du
