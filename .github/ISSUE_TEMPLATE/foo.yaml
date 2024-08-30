@@ -5,7 +5,7 @@ labels: [triage]
 assignees: self
 body:
   - type: input
-    id: litt tekst
+    id: litt_tekst
     attributes:
       label: input type
       description: "??"
@@ -15,7 +15,7 @@ body:
   - type: textarea
     id: mye tekst
     attributes:
-      label: textarea type
+      label: textarea_type
       description:
       placeholder: |
         Skriv før du
