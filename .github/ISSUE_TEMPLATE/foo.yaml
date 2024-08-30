@@ -7,13 +7,13 @@ body:
   - type: input
     id: litt_tekst
     attributes:
-      label: input type
+      label: input_type
       description: "type: input"
       placeholder: "Skriv noe"
     validations:
       required: true
   - type: textarea
-    id: mye tekst
+    id: mye_tekst
     attributes:
       label: textarea_type
       description: "type: text area"
